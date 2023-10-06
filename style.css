@@ -1,0 +1,21 @@
+.piano{
+    margin-top:15%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    height: 300px;
+    background-color: gainsboro;
+}
+.play_section{
+    vertical-align: middle;
+    background-color: beige;
+}
+.key_B{
+    display: inline-block;
+    color: black;
+    background-color: gray;
+}
+.key_W{
+    display: inline-block;
+    color: black;
+}
