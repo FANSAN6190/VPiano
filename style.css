@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+h2 {
+  font-size: 1.6rem;
+  color: white;
+}
 .piano{
     margin-top:15%;
     margin-left: auto;
@@ -8,7 +19,33 @@
     
 }
 .controls{
-    height: 60%;
+  padding: 35px 40px;
+  border-radius: 20px;
+  background: #141414;
+}
+.keys-checkbox input {
+  height: 30px;
+  width: 60px;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+  background: #4B4B4B
+}
+.keys-checkbox input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #8c8c8c;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.keys-checkbox input:checked::before {
+  left: 35px;
+  background: #fff;
 }
 .play_section{
     padding: 5px;
@@ -18,11 +55,11 @@
 .key_B{
 
     text-align: center;
-    width: 20px;
+    width: 25px;
     height: 60%;
     display: inline-block;
-    color: black;
-    background-color: gray;
+    color: rgb(245, 242, 242);
+    background-color: rgb(14, 14, 14);
     position: relative;
     z-index: 9;
     margin-left: -12px;
@@ -31,7 +68,7 @@
 }
 .key_W{
     text-align:center;
-    width: 25px;
+    width: 30px;
     height: 90%;
     display: inline-block;
     background-color: white;
