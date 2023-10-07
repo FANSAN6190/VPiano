@@ -11,7 +11,7 @@ def rename_img():
     i=0
     for note_ogg in files:
         path=cur_dir+"/"+note_ogg    
-        new_path=cur_dir+"/"+"Key_"+note_ogg[-6:]
+        new_path=cur_dir+"/"+"Key_"+note_ogg 
         os.rename(path,new_path)
         print(path,"-->",new_path)
         print(f"{((i+1)*100//count)}% Completed")
