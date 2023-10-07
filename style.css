@@ -5,7 +5,10 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
+h2 {
+  font-size: 1.6rem;
+  color: white;
+}
 .piano{
     margin-top:15%;
     margin-left: auto;
@@ -55,8 +58,8 @@
     width: 25px;
     height: 60%;
     display: inline-block;
-    color: black;
-    background-color: gray;
+    color: rgb(245, 242, 242);
+    background-color: rgb(14, 14, 14);
     position: relative;
     z-index: 9;
     margin-left: -12px;
