@@ -109,5 +109,9 @@ function buttonAnimation(currentKey){
     onkeyup=(event)=>{
         activeButton.classList.remove("pressed");
     }
-    
+    keysCheckbox = document.querySelector(".keys-checkbox input");
+    const showHideKeys = () => {
+        pianoKeys.forEach(key => key.classList.toggle("hide"));
+    }
+    keysCheckbox.addEventListener("click", showHideKeys);
 }   

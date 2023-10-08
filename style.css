@@ -9,6 +9,10 @@ h2 {
   font-size: 1.6rem;
   color: white;
 }
+button{
+  width: 45px;
+  height: 40px;
+}
 .piano{
   
     margin-top:10%;
@@ -51,6 +55,9 @@ h2 {
 .keys-checkbox input:checked::before {
   left: 35px;
   background: #fff;
+}
+.key.hide span {
+  display: none;
 }
 .play_section{
   border-style: solid;
