@@ -72,19 +72,22 @@ button{
     border-bottom-right-radius: 25px;
 }
 .key_B{
-  padding-top: 10%;
-    text-align: center;
     width: 40px;
     height: 60%;
     display: inline-block;
     color: rgb(245, 242, 242);
     background-color: rgb(14, 14, 14);
-    position: relative;
+    position:relative;
     z-index: 9;
     margin-inline: -20px;
+    padding-top: 10%;
+    border-radius: 4px;
+    border-style:outset;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-color:gray;
+
 }
 .key_W{
-  padding-top: 10%;
   z-index: 0;
   margin-inline: 2px;
   text-align:center;
@@ -92,11 +95,23 @@ button{
   height: 95%;
   display: inline-block;
   background-color: white;  
+  padding-top: 10%;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.2);
+  border-style:outset;
+  
 }
 
+.keys h4{
+font-size: 15px;
+}
 .record_section{
   float: right;
 }
 .pressed{
-  background-color: aquamarine;
+  position: relative;
+  top: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.4), 0 17px 50px 0 rgba(0,0,0,0.4);
+
 }
+
