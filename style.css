@@ -94,6 +94,9 @@ button{
   background-color: white;  
 }
 
+.record_section{
+  float: right;
+}
 .pressed{
   background-color: aquamarine;
 }

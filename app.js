@@ -9,6 +9,7 @@ for(i=0;i<document.querySelectorAll(".keys").length;i++){
         //console.log("click : "+this.id);
         let inp_type=0;
         makeSound(this.id,inp_type); 
+        note_label(this.id)
     });
 
     document.addEventListener("keydown",(event)=>{
@@ -23,6 +24,9 @@ for(i=0;i<document.querySelectorAll(".keys").length;i++){
             }
         };  
     });
+}
+function note_label(id){
+    return (document.getElementById(id).querySelector("h4").innerHTML);
 }
 
 function makeSound(inp,inp_type){
