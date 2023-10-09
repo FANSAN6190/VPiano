@@ -5,8 +5,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-h2 {
-  font-size: 1.6rem;
+h1 {
+  font-size: 2.6rem;
   color: white;
 }
 button{
@@ -87,12 +87,13 @@ button{
     border-radius: 4px;
     border-style:outset;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
-    border-color:gray;
+    border-color:rgb(74, 73, 73);
 
 }
 .volume-slider input {
-  color: white;
+  color: rgb(85, 44, 208);
   accent-color: #fff;
+  font-size: 25px;
 }
 .key_W{
   z-index: 0;
@@ -144,6 +145,7 @@ footer {
   text-align: center;
   background-color: #333333d6;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 hr {
   display: block;
