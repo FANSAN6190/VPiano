@@ -135,3 +135,18 @@ font-size: 15px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
+footer {
+  margin-top: 200px;
+  text-align: center;
+  background-color: #333333d6;
+  overflow: hidden;
+}
+hr {
+  display: block;
+  margin-top: 45px;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style:groove;
+  border-width: 10px;
+}
