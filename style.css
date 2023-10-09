@@ -32,6 +32,9 @@ button{
   border-top-right-radius:  20px;
   background: #141414;
 }
+.keys-checkbox{
+  visibility: hidden;
+}
 .keys-checkbox input {
   height: 30px;
   width: 60px;
@@ -106,8 +109,15 @@ button{
 font-size: 15px;
 }
 .record_section{
-  float: right;
+  margin-left: 40%;
+  border-style: outset;
+  border-color: #141414;
+  border-radius: 10px;
+  width: 180px;
+  height: 120px;
 }
+
+
 .pressed{
   position: relative;
   top: 10px;
@@ -115,3 +125,13 @@ font-size: 15px;
 
 }
 
+#timer{
+  background-color: rgba(128, 128, 128, 0.315);
+  height: 60px;
+  text-align: center;
+  font-size: 30px;
+  border-style: groove;
+  border-color: #141414;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
