@@ -90,6 +90,10 @@ button{
     border-color:gray;
 
 }
+.volume-slider input {
+  color: white;
+  accent-color: #fff;
+}
 .key_W{
   z-index: 0;
   margin-inline: 2px;
